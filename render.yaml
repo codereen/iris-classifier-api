@@ -2,4 +2,5 @@ services:
   - type: web
     name: iris-classifier-api
     runtime: docker
+    plan: free
     healthCheckPath: /health
