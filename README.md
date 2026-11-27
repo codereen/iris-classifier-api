@@ -32,8 +32,8 @@ The dataset is provided by scikit-learn's `load_iris` and originates from the [U
 Requires Python 3.12 or later.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/codereen/iris-classifier-api.git
+cd iris-classifier-api
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -86,9 +86,8 @@ Then visit [http://localhost:8000/docs](http://localhost:8000/docs). The image i
 2. In Render, select **New → Blueprint**, connect the repository, and apply the settings from `render.yaml`.
 3. Wait for the Docker build and deployment. Copy the public service URL Render provides.
 4. Test `<service-url>/health` and `<service-url>/docs`.
-5. Replace the demo and badge placeholders at the top of this README with your GitHub repository and deployed service URLs.
 
-Render may take a short time to wake a free service after inactivity. No live demo is hosted from this workspace yet.
+Render may take a short time to wake a free service after inactivity.
 
 ## Project structure
 
