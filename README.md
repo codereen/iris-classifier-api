@@ -2,13 +2,12 @@
 
 A small end-to-end machine learning service that trains a scikit-learn classifier and serves predictions through a validated FastAPI endpoint. Built as a portfolio project to demonstrate a straightforward path from model training to a tested, containerized API.
 
-<!-- After creating the GitHub repository, replace YOUR_USERNAME and YOUR_REPO below. -->
-[![Tests](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/tests.yml)
+[![Tests](https://github.com/codereen/iris-classifier-api/actions/workflows/tests.yml/badge.svg)](https://github.com/codereen/iris-classifier-api/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/API-FastAPI-009688)
 ![scikit--learn](https://img.shields.io/badge/ML-scikit--learn-F7931E)
 
-**Demo:** Deploy this repo to Render using the included Blueprint, then link the service here: `[Live API](https://YOUR-SERVICE.onrender.com/docs)` · [API docs locally](http://127.0.0.1:8000/docs)
+**Demo:** [Live API](https://iris-classifier-api-b3zo.onrender.com/docs) · [API docs locally](http://127.0.0.1:8000/docs)
 
 ## What it does
 
